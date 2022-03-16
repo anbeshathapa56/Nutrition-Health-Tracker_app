@@ -9,6 +9,7 @@ import 'package:nhs/screens/profile/profile_page.dart';
 import 'package:nhs/screens/start_screens/intro_screen.dart';
 import 'package:nhs/screens/start_screens/splash.dart';
 import 'package:nhs/screens/step_tracker/step_tracker_page.dart';
+import 'package:nhs/screens/workouts/advanced_workout.dart';
 import 'package:nhs/screens/workouts/beginner_workout.dart';
 import 'package:nhs/screens/workouts/intermediate_workout.dart';
 import 'package:nhs/screens/workouts/workouts_page.dart';
@@ -66,6 +67,7 @@ class MyApp extends StatelessWidget {
               '/verifyemail': (context) => const VerifyEmail(),
               '/beginnerworkoutpage': (context) => const BeginnerWorkoutPage(),
               '/intermediateworkoutpage': (context) => const IntermediateWorkout(),
+              '/advancedworkoutpage': (context) => const AdvancedWorkout(),
             },
           ),
         ));

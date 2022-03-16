@@ -210,44 +210,49 @@ class _WorkoutsPageState extends State<WorkoutsPage> {
               const SizedBox(
                 height: 20,
               ),
-              Container(
-                decoration: BoxDecoration(
-                  image: const DecorationImage(
-                    image: AssetImage('assets/wout5.jpg'),
-                    fit: BoxFit.cover,
-                    colorFilter:
-                        ColorFilter.mode(Color(0x60212121), BlendMode.darken),
+              GestureDetector(
+                onTap: () {
+                  Navigator.pushNamed(context, '/advancedworkoutpage');
+                },
+                child: Container(
+                  decoration: BoxDecoration(
+                    image: const DecorationImage(
+                      image: AssetImage('assets/wout5.jpg'),
+                      fit: BoxFit.cover,
+                      colorFilter:
+                          ColorFilter.mode(Color(0x60212121), BlendMode.darken),
+                    ),
+                    borderRadius: BorderRadius.circular(100),
+                    color: Colors.grey,
                   ),
-                  borderRadius: BorderRadius.circular(100),
-                  color: Colors.grey,
-                ),
-                width: double.maxFinite,
-                height: 100,
-                child: Padding(
-                  padding: const EdgeInsets.fromLTRB(25, 8, 10, 8),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: const [
-                      Text(
-                        'Advanced Workout',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 20,
-                          fontWeight: FontWeight.w600,
+                  width: double.maxFinite,
+                  height: 100,
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(25, 8, 10, 8),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: const [
+                        Text(
+                          'Advanced Workout',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 20,
+                            fontWeight: FontWeight.w600,
+                          ),
                         ),
-                      ),
-                      SizedBox(
-                        height: 20,
-                      ),
-                      Text(
-                        'FullBody',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 18,
-                          fontWeight: FontWeight.w600,
+                        SizedBox(
+                          height: 20,
                         ),
-                      ),
-                    ],
+                        Text(
+                          'FullBody',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 18,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ),
