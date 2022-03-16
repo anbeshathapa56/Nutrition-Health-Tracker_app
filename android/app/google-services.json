@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "944887016583",
+    "project_id": "nutrition-and-health-system",
+    "storage_bucket": "nutrition-and-health-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944887016583:android:f68d800152bb609fe29c22",
+        "android_client_info": {
+          "package_name": "com.example.nhs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944887016583-p7smve56ipq9hv9eljt20t1ue2geakan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2zKj3Ba3NHPzLC0jFTGZE6l_U-vPHy4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944887016583-p7smve56ipq9hv9eljt20t1ue2geakan.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
