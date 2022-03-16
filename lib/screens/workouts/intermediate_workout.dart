@@ -29,17 +29,17 @@ class _IntermediateWorkoutState extends State<IntermediateWorkout> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Image.asset("assets/heeltouch.jpg",
-                    height: 150,
-                    width: 150,),
-                  const SizedBox(
-                    width: 10,
-                  ),
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
+                  Row(
                     children: [
+                      Image.asset("assets/heeltouch.jpg",
+                        height: 150,
+                        width: 150,),
+                      SizedBox(
+                        width: 10,
+                      ),
                       Column(
-                        children: const [
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
                           Text(
                             "Heel Touch",
                             style: TextStyle(
@@ -56,8 +56,8 @@ class _IntermediateWorkoutState extends State<IntermediateWorkout> {
                               fontSize: 18,
                             ),
                           ),
-                        ],
-                      ),
+                    ],
+                  ),
                     ],
                   ),
                   Row(
@@ -74,27 +74,23 @@ class _IntermediateWorkoutState extends State<IntermediateWorkout> {
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Column(
-                            children: const [
-                              Text('Bicycle Crunch',
-                                style: TextStyle(
-                                  color: Colors.black,
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 18,
-                                ),
-                              ),
-                              Text(
-                                "*40 =>3reps",
-                                style: TextStyle(
-                                  color: Colors.black,
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 18,
-                                ),
-                              ),
-                              SizedBox(
-                                width: 10,
-                              ),
-                            ],
+                          Text('Bicycle Crunch',
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontWeight: FontWeight.w400,
+                              fontSize: 18,
+                            ),
+                          ),
+                          Text(
+                            "*40 =>3reps",
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontWeight: FontWeight.w400,
+                              fontSize: 18,
+                            ),
+                          ),
+                          SizedBox(
+                            width: 10,
                           ),
                         ],
                       ),
@@ -117,26 +113,22 @@ class _IntermediateWorkoutState extends State<IntermediateWorkout> {
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Column(
-                            children: const [
-                              Text('Side Plank(left and right)',
-                                style: TextStyle(
-                                  color: Colors.black,
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 18,
-                                ),
-                              ),
-                              Text("*30 =>3 reps",
-                                style: TextStyle(
-                                  color: Colors.black,
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 18,
-                                ),
-                              ),
-                              SizedBox(
-                                width: 10,
-                              ),
-                            ],
+                          Text('Side Plank(left and right)',
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontWeight: FontWeight.w400,
+                              fontSize: 18,
+                            ),
+                          ),
+                          Text("*30 =>3 reps",
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontWeight: FontWeight.w400,
+                              fontSize: 18,
+                            ),
+                          ),
+                          SizedBox(
+                            width: 10,
                           ),
                         ],
                       ),
@@ -155,26 +147,22 @@ class _IntermediateWorkoutState extends State<IntermediateWorkout> {
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Column(
-                            children: const [
-                              Text('V-up',
-                                style: TextStyle(
-                                  color: Colors.black,
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 18,
-                                ),
-                              ),
-                              Text("*40 =>3 reps",
-                                style: TextStyle(
-                                  color: Colors.black,
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 18,
-                                ),
-                              ),
-                              SizedBox(
-                                width: 10,
-                              ),
-                            ],
+                          Text('V-up',
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontWeight: FontWeight.w400,
+                              fontSize: 18,
+                            ),
+                          ),
+                          Text("*40 =>3 reps",
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontWeight: FontWeight.w400,
+                              fontSize: 18,
+                            ),
+                          ),
+                          SizedBox(
+                            width: 10,
                           ),
                         ],
                       ),
@@ -191,28 +179,23 @@ class _IntermediateWorkoutState extends State<IntermediateWorkout> {
                         width: 10,
                       ),
                       Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Column(
-                            children: const [
-                              Text('Mountain Climbers',
-                                style: TextStyle(
-                                  color: Colors.black,
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 18,
-                                ),
-                              ),
-                              Text("*35 =>4 reps",
-                                style: TextStyle(
-                                  color: Colors.black,
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 18,
-                                ),
-                              ),
-                              SizedBox(
-                                width: 10,
-                              ),
-                            ],
+                        children: const [
+                          Text('Mountain Climbers',
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontWeight: FontWeight.w400,
+                              fontSize: 18,
+                            ),
+                          ),
+                          Text("*35 =>4 reps",
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontWeight: FontWeight.w400,
+                              fontSize: 18,
+                            ),
+                          ),
+                          SizedBox(
+                            width: 10,
                           ),
                         ],
                       ),
@@ -231,25 +214,21 @@ class _IntermediateWorkoutState extends State<IntermediateWorkout> {
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Column(
-                            children: const [
-                              Text('Crossover Crunches',
-                                style: TextStyle(
-                                  color: Colors.black,
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 18,
-                                ),),
-                              Text("*30 =>3 reps",
-                                style: TextStyle(
-                                  color: Colors.black,
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 18,
-                                ),
-                              ),
-                              SizedBox(
-                                width: 10,
-                              ),
-                            ],
+                          Text('Crossover Crunches',
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontWeight: FontWeight.w400,
+                              fontSize: 18,
+                            ),),
+                          Text("*30 =>3 reps",
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontWeight: FontWeight.w400,
+                              fontSize: 18,
+                            ),
+                          ),
+                          SizedBox(
+                            width: 10,
                           ),
                         ],
                       ),

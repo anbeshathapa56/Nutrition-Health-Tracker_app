@@ -29,17 +29,19 @@ class _BeginnerWorkoutPageState extends State<BeginnerWorkoutPage> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Image.asset("assets/crunches.jpg",
-                  height: 150,
-                  width: 150,),
-                  const SizedBox(
-                    width: 10,
-                  ),
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
+                  Row(
                     children: [
+                      Image.asset("assets/crunches.jpg",
+                      height: 150,
+                      width: 150,
+
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
                       Column(
-                        children: const [
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
                           Text(
                             "Crunches",
                             style: TextStyle(
@@ -58,8 +60,13 @@ class _BeginnerWorkoutPageState extends State<BeginnerWorkoutPage> {
                           ),
                         ],
                       ),
+
                     ],
                   ),
+                  const SizedBox(
+                    width: 10,
+                  ),
+
                   Row(
 
                     children: [
@@ -117,27 +124,21 @@ class _BeginnerWorkoutPageState extends State<BeginnerWorkoutPage> {
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Column(
-                            children: const [
-                              Text('Plank',
-                                style: TextStyle(
-                                  color: Colors.black,
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 18,
-                                ),
-                              ),
-                              Text("*30sec =>3 reps",
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.w400,
-                                fontSize: 18,
-                              ),
-                              ),
-                              SizedBox(
-                                width: 10,
-                              ),
-                            ],
+                          Text('Plank',
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontWeight: FontWeight.w400,
+                              fontSize: 18,
+                            ),
                           ),
+                          Text("*30sec =>3 reps",
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontWeight: FontWeight.w400,
+                            fontSize: 18,
+                          ),
+                          ),
+
                         ],
                       ),
                     ],
@@ -193,26 +194,22 @@ class _BeginnerWorkoutPageState extends State<BeginnerWorkoutPage> {
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Column(
-                            children: const [
-                              Text('Cobra Stretch',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.w400,
-                                fontSize: 18,
-                              ),
-                              ),
-                              Text("*35sec =>4 reps",
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.w400,
-                                fontSize: 18,
-                              ),
-                              ),
-                              SizedBox(
-                                width: 10,
-                              ),
-                            ],
+                          Text('Cobra Stretch',
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontWeight: FontWeight.w400,
+                            fontSize: 18,
+                          ),
+                          ),
+                          Text("*35sec =>4 reps",
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontWeight: FontWeight.w400,
+                            fontSize: 18,
+                          ),
+                          ),
+                          SizedBox(
+                            width: 10,
                           ),
                         ],
                       ),
@@ -231,25 +228,21 @@ class _BeginnerWorkoutPageState extends State<BeginnerWorkoutPage> {
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Column(
-                            children: const [
-                              Text('Leg Raises',
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.w400,
-                                fontSize: 18,
-                              ),),
-                              Text("*30sec =>3 reps",
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.w400,
-                                fontSize: 18,
-                              ),
-                              ),
-                              SizedBox(
-                                width: 10,
-                              ),
-                            ],
+                          Text('Leg Raises',
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontWeight: FontWeight.w400,
+                            fontSize: 18,
+                          ),),
+                          Text("*30sec =>3 reps",
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontWeight: FontWeight.w400,
+                            fontSize: 18,
+                          ),
+                          ),
+                          SizedBox(
+                            width: 10,
                           ),
                         ],
                       ),

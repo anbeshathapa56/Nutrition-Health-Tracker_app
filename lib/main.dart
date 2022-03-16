@@ -10,6 +10,7 @@ import 'package:nhs/screens/start_screens/intro_screen.dart';
 import 'package:nhs/screens/start_screens/splash.dart';
 import 'package:nhs/screens/step_tracker/step_tracker_page.dart';
 import 'package:nhs/screens/workouts/beginner_workout.dart';
+import 'package:nhs/screens/workouts/intermediate_workout.dart';
 import 'package:nhs/screens/workouts/workouts_page.dart';
 import 'package:nhs/models/theuser.dart';
 import 'package:nhs/screens/authenticate/forgot_password.dart';
@@ -64,6 +65,7 @@ class MyApp extends StatelessWidget {
               '/forgotpassword': (context) => const ForgotPassword(),
               '/verifyemail': (context) => const VerifyEmail(),
               '/beginnerworkoutpage': (context) => const BeginnerWorkoutPage(),
+              '/intermediateworkoutpage': (context) => const IntermediateWorkout(),
             },
           ),
         ));
