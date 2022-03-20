@@ -61,6 +61,36 @@ class _IntermediateWorkoutState extends State<IntermediateWorkout> {
                     ],
                   ),
                   Row(
+                    children: [
+                      Image.asset("assets/jj.jpg",
+                      height: 150,
+                        width: 150,
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("Jumping Jacks",
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 18,
+                            fontWeight: FontWeight.w400,
+                          ),
+                          ),
+                          Text("*45 =>4 reps",
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontWeight: FontWeight.w400,
+                            fontSize: 18,
+                          ),
+                          )
+                        ],
+                      )
+                    ],
+                  ),
+                  Row(
 
                     children: [
                       Image.asset("assets/bicycle.jpg",
